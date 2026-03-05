@@ -1,19 +1,19 @@
 require("dotenv").config();
 
-global.owner = ["62895331520602"]; // wajib di isi tidak boleh kosong
-global.mods = ["62895331520602"]; // wajib di isi tidak boleh kosong
-global.prems = ["62895331520602"]; // wajib di isi tidak boleh kosong
-global.nameowner = "Tio"; // wajib di isi tidak boleh kosong
-global.numberowner = "62895331520602"; // wajib di isi tidak boleh kosong
-global.mail = "support@tioprm.eu.org"; // wajib di isi tidak boleh kosong
-global.gc = "https://chat.whatsapp.com/I5RpePh2b5u37OyFjzCNTr"; // wajib di isi tidak boleh kosong
+global.owner = ["60174832675"]; // wajib di isi tidak boleh kosong
+global.mods = ["60174832675"]; // wajib di isi tidak boleh kosong
+global.prems = ["60174832675"]; // wajib di isi tidak boleh kosong
+global.nameowner = "Dibzz"; // wajib di isi tidak boleh kosong
+global.numberowner = "60174832675"; // wajib di isi tidak boleh kosong
+global.mail = "adikabang7030@gmail.com"; // wajib di isi tidak boleh kosong
+global.gc = "https://chat.whatsapp.com/EheAWPrQMhV25xW0N7l7WD"; // wajib di isi tidak boleh kosong
 global.instagram = "https://instagram.com/prm2.0"; // wajib di isi tidak boleh kosong
-global.wm = "© BOTCAHX"; // isi nama bot atau nama kalian
+global.wm = "© DbzzOfc"; // isi nama bot atau nama kalian
 global.wait = "_*Tunggu sedang di proses...*_"; // ini pesan simulasi loading
 global.eror = "_*Server Error*_"; // ini pesan saat terjadi kesalahan
 global.stiker_wait = "*⫹⫺ Stiker sedang dibuat...*"; // ini pesan simulasi saat loading pembuatan sticker
 global.packname = "Made With"; // watermark stikcker packname
-global.author = "Bot WhatsApp"; // watermark stikcker author
+global.author = "Bot Dibzz"; // watermark stikcker author
 global.maxwarn = "5"; // Peringatan maksimum Warn
 
 global.autobio = false; // Set true/false untuk mengaktifkan atau mematikan autobio (default: false)
