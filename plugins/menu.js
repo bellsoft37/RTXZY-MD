@@ -81,10 +81,10 @@ I am an automated system (WhatsApp Bot) that can help to do something, search an
 ◦ *Library:* Baileys
 ◦ *Function:* Assistant
 
-┌  ◦ Uptime : %uptime
-│  ◦ Tanggal : %date
-│  ◦ Waktu : %time
-└  ◦ Prefix Used : *[ %p ]*
+┌  ◦ [⏳]Uptime : %uptime
+│  ◦ [📆]Tanggal : %date
+│  ◦ [⏰]Waktu : %time
+└  ◦ [❗]Prefix Used : *[ %p ]*
 `.trimStart(),
     header: '┌  ◦ *%category*',
     body: '│  ◦ %cmd %islimit %isPremium',
@@ -160,7 +160,7 @@ let handler = async (m, { conn, usedPrefix: _p, args = [], command }) => {
                         previewType: 0,
                         renderLargerThumbnail: true,
                         thumbnailUrl: 'https://telegra.ph/file/3a34bfa58714bdef500d9.jpg',
-                        sourceUrl: 'https://whatsapp.com/channel/0029VbAI9JCBKfi5qXq9yJ01'
+                        sourceUrl: 'https://whatsapp.com/channel/0029VaLhfk41XquTnFDHuy45'
                     }
                 }, 
                 mentions: [m.sender]
