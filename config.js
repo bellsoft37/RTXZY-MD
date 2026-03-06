@@ -22,13 +22,13 @@ global.spam = false; // Set true/false untuk anti spam (default: false)
 global.gcspam = false; // Set true/false untuk menutup grup ketika spam (default: false)
 
 // APIKEY INI WAJIB DI ISI! //
-global.btc = "i8JEaTLa";
+global.btc = "piqaa";
 // global.btc = process.env.API_KEY_BTC;
 // aktifkan akses .env di atas jika kamu ingin menaruh key api di .env
 // Daftar terlebih dahulu https://api.botcahx.eu.org
 
 // AKSESKEY INI DI ISI JIKA DIPERLUKAN (e.g suno ai (ai music ) & fitur prem lainnya//
-global.aksesKey = "i8JEaTLa";
+global.aksesKey = "piqaa";
 // global.aksesKey = process.env.API_KEY_BTC_AKSESKEY;
 // aktifkan akses .env di atas jika kamu ingin menaruh key api di .env
 // Daftar terlebih dahulu https://api.botcahx.eu.org
