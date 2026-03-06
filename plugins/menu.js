@@ -5,7 +5,7 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 let levelling = require('../lib/levelling')
 let arrayMenu = [
-  'all', 
+  '[🗃️] all', 
   'ai', 
   'main', 
   'downloader', 
@@ -40,7 +40,7 @@ let arrayMenu = [
 
 
 const allTags = {
-    'all': 'SEMUA MENU',
+    '[🗃️] all': 'SEMUA MENU',
     'ai': 'MENU AI',
     'main': 'MENU UTAMA',
     'downloader': 'MENU DOWNLOADER',
@@ -80,11 +80,13 @@ const defaultMenu = {
 ║╰──────────────────
 ╰════════════════════
 ╭══════════════════
-║╭──❉[ INFO BOT🤖 ]❉───
+║╭──❉[ [🤖]INFO BOT ]❉───
 ║│➸ [🌕]Tanggal Islam:
 ║│➸ *%dateIslamic*
-║│➸ [⏰]Waktu: *%time*
-║│➸ [⏳]Uptime: *%uptime (%muptime)*
+║│➸ [⏰]Waktu:
+║│➸ *%time*
+║│➸ [⏳]Uptime: *%uptime*
+║│➸ *%uptime*
 ║│➸ 🄻  = *Limit* 
 ║│➸ 🄿 = *Premium*
 ║│➸ 𝖢𝗋𝖾𝖺𝗍𝖾 𝖡𝗒 DbzzOfc 👑
@@ -94,7 +96,7 @@ const defaultMenu = {
     header: '┏━━ꕥ〔 *%category* 〕ꕥ━⬣',
     body: '┃ ✾ %cmd %islimit %isPremium',
     footer: '┗━ꕥ',
-    after: `*Note:* Ketik .menu <category> untuk melihat menu spesifik\nContoh: .menu tools`
+    after: `*[❗] Note:* Ketik .menu <category> untuk melihat menu spesifik\nContoh: .menu tools`
 }
 
 let handler = async (m, { conn, usedPrefix: _p, args = [], command }) => {
@@ -134,13 +136,15 @@ let handler = async (m, { conn, usedPrefix: _p, args = [], command }) => {
         })
 
         if (!teks) {
-            let menuList = `${defaultMenu.before}\n\n┌  ◦ *DAFTAR MENU*\n`
+            let menuList = `${defaultMenu.before}\n\n╭══════════════════
+║╭──❉  ◦ *[🗃️]DAFTAR MENU* ❉──\n`
             for (let tag of arrayMenu) {
                 if (tag && allTags[tag]) {
-                    menuList += `│  ◦ ${_p}menu ${tag}\n`
+                    menuList += `║│➸ ${_p}menu ${tag}\n`
                 }
             }
-            menuList += `└  \n\n${defaultMenu.after}`
+            menuList += `║╰──────────────────
+╰════════════════════ \n\n${defaultMenu.after}`
 
             let replace = {
                 '%': '%',
