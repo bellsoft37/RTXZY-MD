@@ -78,17 +78,34 @@ const defaultMenu = {
 Hi %name
 I am an automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.
 
-◦ *Library:* Baileys
-◦ *Function:* Assistant
-
-┌  ◦ [⏳]Uptime : %uptime
-│  ◦ [📆]Tanggal : %date
-│  ◦ [⏰]Waktu : %time
-└  ◦ [❗]Prefix Used : *[ %p ]*
+╭══════════════════
+║╭──❉[ *Hai, %name!* ]❉──
+║│➸ 𝖢𝗋𝖾𝖺𝗍𝖾 𝖡𝗒 LynnXzy
+║│➸ Tersisa *%limit Limit*
+║│➸ Role *%role*
+║│➸ Level 
+║│➸ *%level (%exp / %maxexp)* [%xp4levelup]
+║│➸ %totalexp XP secara Total
+║│➸ 🄻  = *Limit* 
+║│➸ 🄿 = *Premium*
+║╰────────────────
+╰══════════════════
+╭══════════════════
+║╭──❉[ 𝙒𝙖𝙠𝙩𝙪 ]❉───
+║│➸ Tanggal: 
+║│➸ *%week %weton, %date*
+║│➸ Tanggal Islam:
+║│➸ *%dateIslamic*
+║│➸ Waktu: *%time*
+║│➸ Uptime: *%uptime (%muptime)*
+║│➸ Database: %rtotalreg dari %totalreg
+║│➸ Sc: github.com/LynnXzy/scbotz-v1
+║╰──────────────────
+╰════════════════════
 `.trimStart(),
-    header: '┌  ◦ *%category*',
-    body: '│  ◦ %cmd %islimit %isPremium',
-    footer: '└  ',
+    header: '┏━━ꕥ〔 *%category* 〕ꕥ━⬣',
+    body: '┃ ✾ %cmd %islimit %isPremium',
+    footer: '┗━ꕥ',
     after: `*Note:* Ketik .menu <category> untuk melihat menu spesifik\nContoh: .menu tools`
 }
 
@@ -233,7 +250,7 @@ let handler = async (m, { conn, usedPrefix: _p, args = [], command }) => {
                         previewType: 0,
                         renderLargerThumbnail: true,
                         thumbnailUrl: 'https://telegra.ph/file/3a34bfa58714bdef500d9.jpg',
-                        sourceUrl: 'https://whatsapp.com/channel/0029VbAI9JCBKfi5qXq9yJ01'
+                        sourceUrl: 'https://whatsapp.com/channel/0029VaLhfk41XquTnFDHuy45'
                     }
                 }, 
                 mentions: [m.sender]
