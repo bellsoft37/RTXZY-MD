@@ -6,7 +6,7 @@ let moment = require('moment-timezone')
 let levelling = require('../lib/levelling')
 let arrayMenu = [
   'all', 
-  'ai', 
+  '[📤] ai', 
   'main', 
   'downloader', 
   'database', 
