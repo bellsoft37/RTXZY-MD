@@ -5,7 +5,7 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 let levelling = require('../lib/levelling')
 let arrayMenu = [
-  '[👾] all', 
+  'all', 
   'ai', 
   'main', 
   'downloader', 
@@ -41,7 +41,7 @@ let arrayMenu = [
 
 const allTags = {
     '[🗃️] all': 'SEMUA MENU',
-    'ai': 'MENU AI',
+    '[🤖] ai': 'MENU AI',
     'main': 'MENU UTAMA',
     'downloader': 'MENU DOWNLOADER',
     'database': 'MENU DATABASE',
@@ -78,14 +78,14 @@ const defaultMenu = {
 ╭══════════════════
 ║╭──❉[ *Hai, %name!*✨ ]❉──
 ║╰──────────────────
-╰════════════════════
+╰══════════════════
 ╭══════════════════
 ║╭──❉[ [🤖]INFO BOT ]❉───
-║│➸ [🌕]Tanggal Islam:
+║│➸ [🌕] Tanggal Islam:
 ║│➸ *%dateIslamic*
-║│➸ [⏰]Waktu:
+║│➸ [⏰] Waktu:
 ║│➸ *%time*
-║│➸ [⏳]Uptime: *%uptime*
+║│➸ [⏳] Uptime: *%uptime*
 ║│➸ *%uptime*
 ║│➸ 🄻  = *Limit* 
 ║│➸ 🄿 = *Premium*
