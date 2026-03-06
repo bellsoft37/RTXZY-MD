@@ -75,31 +75,19 @@ const allTags = {
 
 const defaultMenu = {
     before: `
-Hi %name
-I am an automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.
-
 ╭══════════════════
-║╭──❉[ *Hai, %name!* ]❉──
-║│➸ 𝖢𝗋𝖾𝖺𝗍𝖾 𝖡𝗒 LynnXzy
-║│➸ Tersisa *%limit Limit*
-║│➸ Role *%role*
-║│➸ Level 
-║│➸ *%level (%exp / %maxexp)* [%xp4levelup]
-║│➸ %totalexp XP secara Total
+║╭──❉[ *Hai, %name!*✨ ]❉──
+║╰──────────────────
+╰════════════════════
+╭══════════════════
+║╭──❉[ INFO BOT🤖 ]❉───
+║│➸ [🌕]Tanggal Islam:
+║│➸ *%dateIslamic*
+║│➸ [⏰]Waktu: *%time*
+║│➸ [⏳]Uptime: *%uptime (%muptime)*
 ║│➸ 🄻  = *Limit* 
 ║│➸ 🄿 = *Premium*
-║╰────────────────
-╰══════════════════
-╭══════════════════
-║╭──❉[ 𝙒𝙖𝙠𝙩𝙪 ]❉───
-║│➸ Tanggal: 
-║│➸ *%week %weton, %date*
-║│➸ Tanggal Islam:
-║│➸ *%dateIslamic*
-║│➸ Waktu: *%time*
-║│➸ Uptime: *%uptime (%muptime)*
-║│➸ Database: %rtotalreg dari %totalreg
-║│➸ Sc: github.com/LynnXzy/scbotz-v1
+║│➸ 𝖢𝗋𝖾𝖺𝗍𝖾 𝖡𝗒 DbzzOfc 👑
 ║╰──────────────────
 ╰════════════════════
 `.trimStart(),
@@ -176,7 +164,7 @@ let handler = async (m, { conn, usedPrefix: _p, args = [], command }) => {
                         mediaType: 1,
                         previewType: 0,
                         renderLargerThumbnail: true,
-                        thumbnailUrl: 'https://telegra.ph/file/3a34bfa58714bdef500d9.jpg',
+                        thumbnailUrl: 'https://image2url.com/r2/default/images/1772810988796-509bbc72-54f7-4c7b-acc0-ff0480fad080.jpg',
                         sourceUrl: 'https://whatsapp.com/channel/0029VaLhfk41XquTnFDHuy45'
                     }
                 }, 
@@ -249,7 +237,7 @@ let handler = async (m, { conn, usedPrefix: _p, args = [], command }) => {
                         mediaType: 1,
                         previewType: 0,
                         renderLargerThumbnail: true,
-                        thumbnailUrl: 'https://telegra.ph/file/3a34bfa58714bdef500d9.jpg',
+                        thumbnailUrl: 'https://image2url.com/r2/default/images/1772810988796-509bbc72-54f7-4c7b-acc0-ff0480fad080.jpg',
                         sourceUrl: 'https://whatsapp.com/channel/0029VaLhfk41XquTnFDHuy45'
                     }
                 }, 
