@@ -5,7 +5,7 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 let levelling = require('../lib/levelling')
 let arrayMenu = [
-  '[🗃️] all', 
+  '[👾] all', 
   'ai', 
   'main', 
   'downloader', 
