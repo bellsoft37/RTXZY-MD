@@ -10,7 +10,7 @@ wa.me/${numberowner}
 ╔╣ *SEWA BOT*
 ║ • Dapat Premium
 ║ • Bebas Invit ke 2 Grup
-╚══╣ *Harga :* Rp 10.00 / bulan
+╚══╣ *Harga :* Rm 10.00 / bulan
 
 - Pembayaran via *TNG/Bank*
   *( tidak ada opsi lain )*
