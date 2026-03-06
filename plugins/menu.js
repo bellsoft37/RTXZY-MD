@@ -40,8 +40,8 @@ let arrayMenu = [
 
 
 const allTags = {
-    '[🗃️] all': 'SEMUA MENU',
-    '[🤖] ai': 'MENU AI',
+    'all': 'SEMUA MENU',
+    'ai': 'MENU AI',
     'main': 'MENU UTAMA',
     'downloader': 'MENU DOWNLOADER',
     'database': 'MENU DATABASE',
