@@ -89,7 +89,7 @@ const defaultMenu = {
 ║│➸ *%uptime*
 ║│➸ 🄻  = *Limit* 
 ║│➸ 🄿 = *Premium*
-║│➸ 𝖢𝗋𝖾𝖺𝗍𝖾 𝖡𝗒 DbzzOfc 👑
+║│➸ 𝖢𝗋𝖾𝖺𝗍𝖾 𝖡𝗒 Piqaa 👑
 ║╰──────────────────
 ╰════════════════════
 `.trimStart(),
@@ -168,8 +168,8 @@ let handler = async (m, { conn, usedPrefix: _p, args = [], command }) => {
                         mediaType: 1,
                         previewType: 0,
                         renderLargerThumbnail: true,
-                        thumbnailUrl: 'https://image2url.com/r2/default/images/1772810988796-509bbc72-54f7-4c7b-acc0-ff0480fad080.jpg',
-                        sourceUrl: 'https://whatsapp.com/channel/0029VaLhfk41XquTnFDHuy45'
+                        thumbnailUrl: 'https://image2url.com/r2/default/images/1772862500519-2f4f763e-8645-469f-8f70-851c26bdae87.jpg',
+                        sourceUrl: 'https://whatsapp.com/channel/0029Vb76TNz8V0twMI7bEN3V'
                     }
                 }, 
                 mentions: [m.sender]
@@ -241,8 +241,8 @@ let handler = async (m, { conn, usedPrefix: _p, args = [], command }) => {
                         mediaType: 1,
                         previewType: 0,
                         renderLargerThumbnail: true,
-                        thumbnailUrl: 'https://image2url.com/r2/default/images/1772810988796-509bbc72-54f7-4c7b-acc0-ff0480fad080.jpg',
-                        sourceUrl: 'https://whatsapp.com/channel/0029VaLhfk41XquTnFDHuy45'
+                        thumbnailUrl: 'https://image2url.com/r2/default/images/1772862500519-2f4f763e-8645-469f-8f70-851c26bdae87.jpg',
+                        sourceUrl: 'https://whatsapp.com/channel/0029Vb76TNz8V0twMI7bEN3V'
                     }
                 }, 
                 mentions: [m.sender]
