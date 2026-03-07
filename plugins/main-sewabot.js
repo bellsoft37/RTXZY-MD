@@ -21,7 +21,7 @@ wa.me/${numberowner}
     try {
         await conn.relayMessage(m.chat, {
             requestPaymentMessage: {
-                currencyCodeIso4217: 'IDR',
+                currencyCodeIso4217: 'RM',
                 amount1000: 25000 * 1000,
                 requestFrom: '0@s.whatsapp.net',
                 noteMessage: {
