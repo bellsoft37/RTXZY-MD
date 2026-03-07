@@ -31,20 +31,7 @@ const sentMsg  = await conn.sendMessage(
         }
     }
 )
-await conn.reply(m.chat, "🩷 𝐒𝐄𝐖𝐀 𝐁𝐎𝐓 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 🩷
-
-*BELL SOFT BOT*
-
-🌺 𝗡𝗔𝗠𝗔 𝗢𝗪𝗡𝗘𝗥 : melody
-🌺𝗧𝗔𝗥𝗜𝗞𝗛 𝗣𝗔𝗬𝗠𝗘𝗡𝗧 :
-🌺𝗟𝗜𝗠𝗜𝗧 𝗦𝗘𝗪𝗔 ( 𝗗𝗔𝗬 /𝗠𝗢𝗡𝗧𝗛𝗟𝗬 / 𝗬𝗘𝗔𝗥 / 𝗣𝗘𝗥𝗠𝗔𝗡𝗘𝗡𝗧) : 1 hari
-🌺𝗡𝗔𝗠𝗔 𝗚𝗥𝗢𝗨𝗣 : 𝓜𝓮𝓵𝓸𝓑𝓮𝓮 🐝
-🌺𝗟𝗜𝗡𝗞 𝗚𝗥𝗢𝗨𝗣 : https://chat.whatsapp.com/ImdR6oTNIMUArmzPqe54JA?mode=gi_t
-
- 𝐋𝐈𝐍𝐊 𝐆𝐑𝐎𝐔𝐏 𝐁𝐎𝐓 
-https://chat.whatsapp.com/EHCRr93AxgxLfgjuijvh2d?mode=gi_t
-
-TOLONG SEND FORMAT DALAM GRP!! TAKK SEND BOT TAKKAN JOIN HANTAR SKLI DENGAN BUKTI TF.", sentMsg)}
+await conn.reply(m.chat, "Itu adalah nomor owner bot", sentMsg)}
 handler.command = handler.help = ['owner', 'creator'];
 handler.tags = ['info'];
 handler.limit = false;
