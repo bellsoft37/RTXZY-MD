@@ -1,19 +1,19 @@
 require("dotenv").config();
 
-global.owner = ["60174832675"]; // wajib di isi tidak boleh kosong
-global.mods = ["60174832675"]; // wajib di isi tidak boleh kosong
-global.prems = ["60174832675"]; // wajib di isi tidak boleh kosong
-global.nameowner = "Dibzz"; // wajib di isi tidak boleh kosong
-global.numberowner = "60174832675"; // wajib di isi tidak boleh kosong
-global.mail = "adikabang7030@gmail.com"; // wajib di isi tidak boleh kosong
-global.gc = "https://chat.whatsapp.com/EheAWPrQMhV25xW0N7l7WD"; // wajib di isi tidak boleh kosong
-global.instagram = "https://instagram.com/prm2.0"; // wajib di isi tidak boleh kosong
-global.wm = "© DbzzOfc"; // isi nama bot atau nama kalian
+global.owner = ["60192922446"]; // wajib di isi tidak boleh kosong
+global.mods = ["60192922446"]; // wajib di isi tidak boleh kosong
+global.prems = ["60192922446"]; // wajib di isi tidak boleh kosong
+global.nameowner = "Piqaa Kawaii ><"; // wajib di isi tidak boleh kosong
+global.numberowner = "60192922446"; // wajib di isi tidak boleh kosong
+global.mail = "syafiqanabila37@gmail.com"; // wajib di isi tidak boleh kosong
+global.gc = "https://chat.whatsapp.com/EHCRr93AxgxLfgjuijvh2d?mode=gi_t"; // wajib di isi tidak boleh kosong
+global.instagram = "https://instagram.com/qee4iq"; // wajib di isi tidak boleh kosong
+global.wm = "© Piqaa Kawaii ><"; // isi nama bot atau nama kalian
 global.wait = "_*Tunggu sedang di proses...*_"; // ini pesan simulasi loading
 global.eror = "_*Server Error*_"; // ini pesan saat terjadi kesalahan
 global.stiker_wait = "*⫹⫺ Stiker sedang dibuat...*"; // ini pesan simulasi saat loading pembuatan sticker
-global.packname = "Made With"; // watermark stikcker packname
-global.author = "Bot Dibzz"; // watermark stikcker author
+global.packname = "Made by"; // watermark stikcker packname
+global.author = "BellSoft Bot"; // watermark stikcker author
 global.maxwarn = "5"; // Peringatan maksimum Warn
 
 global.autobio = true; // Set true/false untuk mengaktifkan atau mematikan autobio (default: false)
