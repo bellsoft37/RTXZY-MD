@@ -2,15 +2,35 @@ let handler = async (m, { conn, command }) => {
     let txt = `*[ Chat Dengan Creator ]*
 wa.me/${numberowner}
 
-╔╣ *PREMIUM USER*
-║ • 10.000 Limit
-║ • Full Akses Chat
-╚══╣ *Harga :* Rm 5.00 / bulan
+🩷SERVICE SEWA BOT BELLSOFT>.<🩷
 
-╔╣ *SEWA BOT*
-║ • Dapat Premium
-║ • Bebas Invit ke 2 Grup
-╚══╣ *Harga :* Rm 10.00 / bulan
+boleh sewa personal&group
+
+UNTUK NEWBIE TESTER : 1HARI
+
+owner:piqa ><
+admin:imah ><
+
+(⁠◍⁠•⁠ᴗ⁠•⁠◍⁠)⁠✧⁠*⁠。PRICE LIST
+🌺RM 0.50 -PER DAY
+🌺RM 5.00 -PER WEEK
+🌺RM 8.00 -PER MONTH
+🌺RM20.00 -PER YEAR
+🌺RM30.00 -PERMANENT JUST FOR GROUP
+
+꒰⁠⑅⁠ᵕ⁠༚⁠ᵕ⁠꒱⁠˖⁠♡RULES BOT♡⁠˖⁠꒰⁠ᵕ⁠༚⁠ᵕ⁠⑅⁠꒱
+-JANGAN SPAM BOT
+-JANGAN CHAT BOT SESUKA HATI
+-JANGAN CALL BOT
+-JANGAN ADD BOT SESUKA HATI
+KALAU ENGKO TAK RETI NAK IKUT RULES TAKYAH NAK MENGGATAL BELI!!!
+
+TAKE NOTE!!!!!!
+
+GRP NI BUKAN NTUK POMOT!!! 
+PMOT? AUTO KICK
+JUST POR BOT!!
+TAK DENGAR CAKP? AUTOOOOO BAN&&BLACKLIST!!!!!
 
 - Pembayaran via *TNG/Bank*
   *( tidak ada opsi lain )*
