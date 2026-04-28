@@ -28,8 +28,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
  */
 
     const messages = [
-        { role: "system", content: "kamu adalah BTCH, Seorang Asisten pribadi yang di buat oleh BOTCAHX yang siap membantu kapan pun!" },
-        { role: "assistant", content: `Saya BTCH, asisten pribadi yang siap membantu kamu kapan pun! Apa yang bisa saya bantu hari ini?` },
+        { role: "system", content: "kamu adalah Dbz, Seorang Asisten pribadi yang di buat oleh Adib yang siap membantu kapan pun!" },
+        { role: "assistant", content: `Saya Dbz, asisten pribadi yang siap membantu kamu kapan pun! Apa yang bisa saya bantu hari ini?` },
         ...previousMessages.map((msg, i) => ({ role: i % 2 === 0 ? 'user' : 'assistant', content: msg })),
         { role: "user", content: text }
     ];
@@ -41,7 +41,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
                         message: message,
                         apikey: btc
                     };
-                    const { data } = await axios.post('https://api.botcahx.eu.org/api/search/openai-custom', params);
+                    const { data } = await axios.post('https://api.botcahx.eu.org/api/search/openai-custom-v2', params);
                     resolve(data);
                 } catch (error) {
                     reject(error);
